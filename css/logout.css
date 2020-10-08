@@ -1,0 +1,29 @@
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+    color:yellow;
+    background: black;}
+
+.message {
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 225px;
+}
+
+.homeButton {
+    font-size: 32px;
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 550px;
+    background: yellow;
+    border-radius: 12px;
+    text-align:center;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.homeLink {
+    text-decoration: none;
+    color:black;
+}

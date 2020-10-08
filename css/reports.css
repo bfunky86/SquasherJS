@@ -1,0 +1,103 @@
+*:focus {
+  outline: none;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+
+h1 {
+   font-weight: bold;
+}
+
+.reportsForm {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 200px;
+    font-size: 22px;
+    font-weight: bold;
+    background: yellow;
+    color:black;
+    border-radius: 12px;
+    height: 100px;
+    width: 800px;
+}
+
+.logoutButton {
+    float:right;
+    width:10%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: yellow;
+    font-weight: bold;
+    color:black;
+    text-align:center;
+    cursor: pointer;
+}
+
+select {
+    padding-right:20px;
+}
+
+.submitButton {
+    width:150px;
+    height: 50px;
+    background: black;
+    margin-top: 5px;
+    margin-left:10px;
+    color: yellow;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+}
+
+.clearButton {
+    width:150px;
+    height: 50px;
+    background: black;
+    margin-top: 5px;
+    margin-left:10px;
+    color: yellow;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+}
+
+table {
+    overflow: scroll;
+    font-weight:bold;
+    background: yellow;
+    color: black;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left:200px;
+}
+
+table, th, td {
+    padding:5px 10px 5px 10px;
+    border: 1px solid black;
+}
+
+/* width */
+nav::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+nav::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+nav::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+nav::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

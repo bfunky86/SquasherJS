@@ -4,45 +4,33 @@
   
   body {
     font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
     background: black;
-    font-size: 16px;
     color: #222;
   }
   
   #login-box {
       position: relative;
       margin: 5% auto;
+      text-align:center;
       width: 400px;
       height: 300px;
       color:black;
       background: yellow;
       border-radius: 2px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      padding: 40px;
     }
-
-    .left {
-        position: absolute;
-        top: 0;
-        left: 0;
-        box-sizing: border-box;
-        padding: 40px;
-        width: 300px;
-        height: 400px;
-      }
       
-      h1 {
-        margin: 0 0 20px 0;
-        font-weight: 300;
-        font-size: 28px;
-      }
+    h1 {
+      margin: 0 0 20px 0;
+      font-weight: 500;
+      font-size: 32px;
+    }
       
 input[type="text"],
 input[type="password"] {
-  display: block;
-  box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   padding: 4px;
   width: 220px;
   height: 32px;
@@ -85,4 +73,11 @@ input[type="submit"]:active {
     opacity: 1;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     transition: 0.1s ease;
+  }
+  
+  .error {
+      text-align:center;
+      font-size: 26px;
+      font-weight:bold;
+      color:yellow;
   }

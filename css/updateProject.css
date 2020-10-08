@@ -1,0 +1,102 @@
+*:focus {
+    outline: none;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+
+
+h1 {
+    font-weight: bold;
+}
+
+.updateProjForm {
+    width: 580px;
+    height: 450px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 400px;
+    background: yellow;
+    color: black;
+    border-radius: 12px;
+}
+
+.projectBox {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 12px 20px;
+}
+
+.titleVersion {
+    display: inline-block;
+}
+
+.title {
+    float: left;
+}
+
+.version {
+    float: right;
+    margin-left: 50px;
+}
+
+.description {
+    width: 500px;
+    resize: none;
+}
+
+.submitButton {
+    width:150px;
+    height: 50px;
+    margin-top: 5px;
+    background: black;
+    color: yellow;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+}
+
+
+input[type="text"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid black;
+    color: black;
+    transition: 0.2s ease;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+.error {
+    text-align:center;
+    font-size: 26px;
+    font-weight:bold;
+    color:yellow;
+    background: black;
+}
